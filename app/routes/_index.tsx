@@ -40,7 +40,7 @@ export default function Index() {
         <>
           <p>Value: {value}</p>
           <Form method="DELETE">
-            <button>Delete</button>
+            <button type="submit">Delete</button>
           </Form>
         </>
       ) : (
@@ -50,7 +50,7 @@ export default function Index() {
             <label htmlFor="value">Set value: </label>
             <input type="text" name="value" id="value" required />
             <br />
-            <button>Save</button>
+            <button type="submit">Save</button>
           </Form>
         </>
       )}
